@@ -6,13 +6,12 @@ public class Student {
 
     public void details() {
         System.out.println("Student details");
-        int student1 = 5;
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter student count");
         int count = sc.nextInt();
 
-        for (int i = 5; i >= 0; i--) {
+        for (int i = count; i >= 0; i--) {
             System.out.println(i);
 
         System.out.println(" Enter your roll no:");
