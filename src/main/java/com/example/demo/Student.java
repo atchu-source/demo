@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Student {
 
+
+
     public void details() {
         System.out.println("Student details");
         Scanner sc = new Scanner(System.in);
